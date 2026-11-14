@@ -1,0 +1,7 @@
+Command:
+curl -s https://api.github.com/repos/SmayanSalunkhe/mcino-Introduction-to-Git-and-GitHub | grep -E '"full_name"|"fork"'
+
+Verified API output:
+"full_name": "SmayanSalunkhe/mcino-Introduction-to-Git-and-GitHub",
+"fork": true,
+"full_name": "ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub"
